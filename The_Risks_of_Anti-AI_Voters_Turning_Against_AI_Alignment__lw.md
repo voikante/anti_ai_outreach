@@ -138,7 +138,7 @@ To informally take a glimpse into how prevalent the general public (outside of A
 
 27.6% of items belong to multiple groups, so the item counts sum to 23,904, and the percentages exceed 100. Each row's "% of engagement" is its share of total likes or upvotes.
 
-Note that this is not rigorous research, given issues such as its focus on a narrow audience that is frequently online on these social media sites (which does not represent many groups in the US); thus, in Section 5.1, I propose that more rigorous research is needed. [In a planned follow-up to this introductory post, there will be an appendix with more detailed analyses I have done that are not shown here yet (e.g., belief prevalence analysis for beliefs like “opposes Sanders’s claim of AI capabilities”)].
+Note that this is not rigorous research, given issues such as its focus on a narrow audience that is frequently online on these social media sites (which does not represent many groups in the US); thus, in Section 5.1, I propose that more rigorous research is needed. [If there is a follow-up to this introductory post, a dashboard will display these samples, the methodology will be described, and more detailed analyses will be given; I will have to spend some more time building those if it’s deemed worthwhile].
 
 Therefore, we can assume that the anti-AI public currently has no strong stance or awareness about misalignment risks. To provide a background of their main concerns, we will summarize a few prominent anti-AI stances:
 
@@ -534,7 +534,7 @@ Next, we discuss examples of influencers, and their current or potential opinion
 
 *People in media / creative arts: still in favor of shutdown/slowdown, but not due to AI alignment*
 
-- [Karla Ortiz](https://x.com/kortizart): a highly influential artist whose [one Bluesky post](https://bsky.app/profile/kortizart.bsky.social/post/3mceacorcr22f), rallying against how San Diego Comic Con allowed AI, [reverted SDCC’s policies in just a day](https://www.404media.co/comic-con-bans-ai-art-after-artist-pushback/)
+- [Karla Ortiz](https://x.com/kortizart): a highly influential artist whose [one Bluesky post](https://bsky.app/profile/kortizart.bsky.social/post/3mceacorcr22i), rallying against how San Diego Comic Con allowed AI, [reverted SDCC’s policies in just a day](https://www.404media.co/comic-con-bans-ai-art-after-artist-pushback/)
 - [Adam Conover](https://www.youtube.com/@TheAdamConover): talk show host
 - [Drew Gooden](https://www.youtube.com/@drewisgooden): YouTuber focused on anti-AI in creative media
 
@@ -547,7 +547,7 @@ Next, we discuss examples of influencers, and their current or potential opinion
 
 - [Moistcritikal](https://www.youtube.com/@MoistCr1TiKaLGamingOfficial): a streamer who has a huge public audience, and has fluctuating views on AI. In [a video with 1.5 million views](https://www.youtube.com/watch?v=9T8blyb5_Uw&lc=UgzyHN4c-1IQFkXsmcd4AaABAg), he showed support for Anthropic’s stand against mass surveillance and AI weaponry. His audience gave 23k likes on a comment stating: “When the AI company is the good guy you know shits getting bad”.
 
-### 5.4.2. Empower existing AI alignment outreach groups
+### 5.4.2. Empower existing groups that teach AI alignment to non-technical audiences
 
 These groups include:
 
