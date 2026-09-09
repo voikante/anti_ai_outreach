@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Tables for the Substack post</title><style>
+  body { margin: 0; background: #fff; font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; color: #1a1a1a; }
+  .wrap { display: inline-block; padding: 16px; background: #fff; }
+  table { border-collapse: collapse; font-size: 17px; line-height: 1.35; min-width: 900px; max-width: 1000px; }
+  th, td { border: 1px solid #c9c9c9; padding: 9px 14px; text-align: left; vertical-align: top; }
+  th { background: #f1f1f1; font-weight: 600; white-space: nowrap; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td:first-child { white-space: nowrap; }
+  .r { color: #d44c47; } .g { color: #448361; } .o { color: #d9730d; } .y { color: #cb912f; }
+  caption { caption-side: bottom; text-align: left; font-size: 14px; color: #555; padding-top: 8px; }
+
+  body { margin: 32px; } .wrap { display: block; margin-bottom: 40px; } h3 { font-family: inherit; }</style></head><body>
+<p><i>Fallback: if you would rather paste tables than upload images, copy these into a Google Doc or Word doc first and then paste from there into Substack. Substack's editor does not keep tables pasted directly from a browser.</i></p>
+<h3>Table 1</h3><div class="wrap"><table><caption>Stance breakdown of 17,619 scraped anti-AI posts/comments (LLM-judged)</caption><thead><tr><th>Type of stance</th><th class="num"># of items</th><th class="num">% of 17,619 items (rounded)</th><th class="num"># of engagement</th><th class="num">% of engagement (rounded)</th></tr></thead><tbody>
+<tr><td>Creative Media</td><td class="num">8,659</td><td class="num">49.1%</td><td class="num">1,825,402</td><td class="num">50.1%</td></tr>
+<tr><td>Human Wellness</td><td class="num">5,189</td><td class="num">29.5%</td><td class="num">1,066,758</td><td class="num">29.3%</td></tr>
+<tr><td>Anti-Surveillance/Tech</td><td class="num">4,493</td><td class="num">25.5%</td><td class="num">802,211</td><td class="num">22.0%</td></tr>
+<tr><td>Pro-Labor</td><td class="num">3,016</td><td class="num">17.1%</td><td class="num">490,476</td><td class="num">13.5%</td></tr>
+<tr><td>Pro-Environment</td><td class="num">2,158</td><td class="num">12.2%</td><td class="num">361,069</td><td class="num">9.9%</td></tr>
+<tr><td>Fairness / Bias Ethics</td><td class="num">272</td><td class="num">1.5%</td><td class="num">21,764</td><td class="num">0.6%</td></tr>
+<tr><td><span class="r"><b>Alignment risks</b></span></td><td class="num"><span class="r"><b>117</b></span></td><td class="num"><span class="r"><b>0.7%</b></span></td><td class="num"><span class="r"><b>6,739</b></span></td><td class="num"><span class="r"><b>0.2%</b></span></td></tr>
+</tbody></table></div>
+<h3>Table 2</h3><div class="wrap"><table><caption>Decision matrix: each cell is a loss, as a share of the field’s total resources over ~3 years</caption><thead><tr><th></th><th>If a backlash event happens (probability <i>p</i>)</th><th>No backlash event (1 − <i>p</i>)</th></tr></thead><tbody>
+<tr><td>Do nothing</td><td>Lose the full <i>L</i> = −<i>L</i></td><td>Lose nothing = 0</td></tr>
+<tr><td>Spend 0.3%</td><td>Lose <i>L</i>, get <i>r</i> × <i>L</i> of it back, and pay the 0.3%<br>= −(<i>L</i> − <i>r</i> × <i>L</i>) − 0.003</td><td>Pay 0.3% = −0.003</td></tr>
+</tbody></table></div>
+<h3>Table 3</h3><div class="wrap"><table><caption>Worked example with <i>p</i> = 0.6, <i>L</i> = 0.1, <i>r</i> = 0.2 (total resources = $1 billion)</caption><thead><tr><th></th><th>Backlash (<i>p</i> = 0.6)</th><th>No backlash (1 − <i>p</i> = 0.4)</th><th>Expected loss</th></tr></thead><tbody>
+<tr><td>Do nothing</td><td><span class="r"><b>−10%</b></span><br>= $100M</td><td><span class="g">0%</span></td><td>0.6 × (<span class="r">−10%</span>) + 0.4 × (<span class="g">0%</span>)<br>= <b>−6.0%</b> <span class="o">= $60M</span></td></tr>
+<tr><td>Spend 0.3%</td><td>−8% − 0.3%<br>= <span class="r">−8.3%</span><br>= $83M</td><td><span class="g">−0.3%</span><br>= $3M</td><td>0.6 × (<span class="r">−8.3%</span>) + 0.4 × (<span class="g">−0.3%</span>)<br>= −4.98% − 0.12% = <b>−5.1%</b><br><span class="y"><b>= $51M</b></span></td></tr>
+</tbody></table></div>
+<h3>Table 4</h3><div class="wrap"><table><caption>Break-even values: shrink one input while holding the other two fixed</caption><thead><tr><th>Shrink one input</th><th>Break-Even: Hits $3M when</th><th>“Do nothing” wins only if</th></tr></thead><tbody>
+<tr><td>Chance of backlash <i>p</i></td><td><i>p</i> = 0.15</td><td>a backlash is less than a one-in-seven chance</td></tr>
+<tr><td>Share saved <i>r</i></td><td><i>r</i> = 0.05</td><td>preparation recovers under 5% of the damage</td></tr>
+<tr><td>Damage <i>L</i></td><td><i>L</i> = $25M</td><td>the damage is under $25 million</td></tr>
+</tbody></table></div>
+<h3>Table 5</h3><div class="wrap"><table><caption>Prevalence of capability-downplaying beliefs in the 17,619 samples (LLM-judged)</caption><thead><tr><th>Belief</th><th class="num"># of items</th><th class="num">% of 17,619 items (rounded)</th></tr></thead><tbody>
+<tr><td>Scam / bubble / NFT-style grift</td><td class="num">2,035</td><td class="num">11.6%</td></tr>
+<tr><td>Theft by copying</td><td class="num">2,539</td><td class="num">14.4%</td></tr>
+<tr><td>Parrot / autocomplete / not reasoning</td><td class="num">1,143</td><td class="num">6.5%</td></tr>
+</tbody></table></div>
+</body></html>
