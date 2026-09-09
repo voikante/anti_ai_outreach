@@ -504,7 +504,7 @@ Next, we discuss examples of influencers, and their current or potential opinion
 
 **3. People who are on the fence**
 
-- Sabine Hossenfelder: Claims to be open to being pro or anti AI, and is sympathetic to slowing down AI, but is not like being not badgered to parrot others’ views. Sees herself as an “infoencer”.
+- Sabine Hossenfelder: A physicist who claims to be open to being pro or anti AI, and is sympathetic to slowing down AI, but does not like being badgered to parrot others’ views. Sees herself as an “infoencer”.
 
 **4. People who strongly downplay capabilities**
 
